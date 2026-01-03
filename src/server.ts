@@ -1,5 +1,3 @@
-//backend/src/server.ts
-
 import dotenv from "dotenv";
 import app from "./app";
 import { connectDB } from "./config/db";
@@ -13,4 +11,3 @@ connectDB().then(() => {
     console.log(`🚀 Backend running on port ${PORT}`);
   });
 });
-
